@@ -1,0 +1,14 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
