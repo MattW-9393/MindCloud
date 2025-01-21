@@ -33,6 +33,22 @@ header ul li {
   padding: 2rem;
 }
 
+#sign-in-form {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+#create-acc-form {
+    display: block;
+    text-align: center;
+    padding: 2rem;
+}
+
+#create-acc-form input {
+    text-align: justify;
+}
+
 footer{
     display: flex;
     justify-content: space-around;
