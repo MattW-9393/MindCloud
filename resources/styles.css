@@ -27,7 +27,7 @@ header ul li {
     border: 1px ridge black;
 }
 
-.focus {
+.welcome {
     display: block;
   text-align: center;
   padding: 2rem;
