@@ -17,6 +17,16 @@ ul{
  
 }
 
+header ul {
+    list-style-type: none;
+ 
+
+}
+
+header ul li {
+    border: 1px ridge black;
+}
+
 .focus {
     display: block;
   text-align: center;
