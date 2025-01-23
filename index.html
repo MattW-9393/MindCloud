@@ -28,8 +28,8 @@
         </div>
 
         <!--Form for signing into app for existing users if = user selection = 'I have an Account'-->
-        <section id="sign-in-form">
-            <form action="#" method="POST">
+        
+            <form action="#" method="POST" class="createAcc-login-form" id="sign-in-form">
                 <!--Logo-->
                 <h2>Sign in</h2>
                 <h3>Record your latest update on MindCloud</h3>
@@ -50,14 +50,14 @@
                 <section class="submit-button" id="sign-in-button">
                     <input type="submit" id="sign-in" value="Sign in">
                 </section>
-                
+
                 <!--Add Remember Sign in check box-->
             </form>
-        </section>
+       
 
         <!--Form for Account Creation - JS DOM trigger to reveal if user selection = 'Create an Account'-->
-        <section id="create-acc-form">
-            <form action="" method="POST">
+  
+            <form action="" method="POST" class="createAcc-login-form" id="create-acc-form">
                 <!--Logo-->
                 <h2>Create an Account</h2>
                 <h3>Track your mood and identify trends to improve your health and wellbeing with MindCloud</h3>
@@ -88,19 +88,21 @@
                 <section class="confirm-password">
                     <label for="conf-pass">Confirm password: </label>
                     <input type="password" name="" id="conf-pass" required>
+            
                 </section>
 
                 <!--Accept T&C and Submit info-->
                 <section id="TC-agree">
                     <input type="checkbox" id="tAndC" name="tAndC" value="tAndC" required>
-                    <p>By creating this account I agree to the terms and conditions of the app</p>
+                    <label for="tAndC">By creating this account I agree to the terms and conditions of the app</label>
                 </section>
                 
                  <section class="submit-button" id="create-acc-button">
                     <input type="submit" id="sign-in" value="Create account">
                 </section>
             </form>
-        </section>
+       
+
     </main>
     <footer>
         <p>Copyright 2025</p>
