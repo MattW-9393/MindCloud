@@ -37,16 +37,21 @@
 
                     <!--username-->
                     <label for="username">Username: </label>
-                    <input type="email" name="" id="username">
+                    <input type="email" name="username" id="username" required>
                 </section>
 
                 <!--Password-->
                 <section class="sign-in-pass">
                     <label for="password">Password: </label>
-                    <input type="password" name="" id="password">
+                    <input type="password" name="password" id="password" required>
                 </section>
 
-                <!--Add Login Button-->
+                <!--Sign in button-->
+                <section class="submit-button" id="sign-in-button">
+                    <input type="submit" id="sign-in" value="Sign in">
+                </section>
+                
+                <!--Add Remember Sign in check box-->
             </form>
         </section>
 
@@ -58,34 +63,42 @@
                 <h3>Track your mood and identify trends to improve your health and wellbeing with MindCloud</h3>
 
                 <!--Your Name-->
-                <section class="last-name">
-                    <label " for=" firstname">First name: </label>
-                    <input " type=" text" name="" id="firstname">
+                <section class="first-name">
+                    <label for= "firstname">First name: </label>
+                    <input type=" text" name="" id="firstname" required>
                 </section>
                 <section class="last-name">
                     <label for="lastname">Last name: </label>
-                    <input type="text" name="" id="lastname">
+                    <input type="text" name="" id="lastname" required>
                 </section>
 
                 <!--Email Address-->
                 <section class="email-address">
                     <label for="email-add">Email address: </label>
-                    <input type="text" name="" id="email-add">
+                    <input type="text" name="" id="email-add" required>
                 </section>
 
                 <!--New Password-->
                 <section class="new-password">
                     <label for="new-pass">Password: </label>
-                    <input type="password" name="" id="new-pass">
+                    <input type="password" name="" id="new-pass" required>
                 </section>
 
                 <!--Confirm Password-->
                 <section class="confirm-password">
                     <label for="conf-pass">Confirm password: </label>
-                    <input type="password" name="" id="conf-pass">
+                    <input type="password" name="" id="conf-pass" required>
                 </section>
-                <!--"by creating this account I agree to the terms and conditions of the app"-->
-                <!--Create Account-->
+
+                <!--Accept T&C and Submit info-->
+                <section id="TC-agree">
+                    <input type="checkbox" id="tAndC" name="tAndC" value="tAndC" required>
+                    <p>By creating this account I agree to the terms and conditions of the app</p>
+                </section>
+                
+                 <section class="submit-button" id="create-acc-button">
+                    <input type="submit" id="sign-in" value="Create account">
+                </section>
             </form>
         </section>
     </main>
