@@ -11,3 +11,4 @@ createAccountForm.hidden = true;
 
 // Reveal forms functions
 
+
